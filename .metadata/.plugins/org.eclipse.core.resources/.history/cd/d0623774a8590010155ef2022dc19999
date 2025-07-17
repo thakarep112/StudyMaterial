@@ -1,0 +1,10 @@
+package testpackage;
+
+public class SumOfAllDigitsOfGivenInteger {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

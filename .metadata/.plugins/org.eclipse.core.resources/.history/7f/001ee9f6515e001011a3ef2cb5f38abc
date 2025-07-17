@@ -1,0 +1,25 @@
+package testpackage3;
+
+
+public class GreatestNumber {
+	
+	public static void swapNumbers(int num1, int num2) {
+		
+		
+		num1 = num1 + num2;
+		num2 = num1 - num2;
+		num1 = num1 - num2;
+		
+		System.out.println("After swapping the values num1 is :" +num1);
+		System.out.println("After swapping the values num2 is :" +num2);
+		
+	}
+
+	public static void main(String[] args) {
+		
+		
+		
+
+	}
+
+}

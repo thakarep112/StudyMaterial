@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-08T12:55:11 IST" name="Default suite" finished-at="2025-07-08T12:55:12 IST" duration-ms="1076">
+    <groups>
+    </groups>
+    <test started-at="2025-07-08T12:55:11 IST" name="Default test" finished-at="2025-07-08T12:55:12 IST" duration-ms="1076">
+      <class name="parallelexecution.ParallelExecutionThroughDataProvider">
+        <test-method signature="testBrowserName(java.lang.String)[pri:0, instance:parallelexecution.ParallelExecutionThroughDataProvider@9f116cc]" started-at="2025-07-08T12:55:11 IST" name="testBrowserName" data-provider="getData" finished-at="2025-07-08T12:55:12 IST" duration-ms="1033" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBrowserName -->
+        <test-method signature="testBrowserName(java.lang.String)[pri:0, instance:parallelexecution.ParallelExecutionThroughDataProvider@9f116cc]" started-at="2025-07-08T12:55:11 IST" name="testBrowserName" data-provider="getData" finished-at="2025-07-08T12:55:12 IST" duration-ms="1033" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firfox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBrowserName -->
+      </class> <!-- parallelexecution.ParallelExecutionThroughDataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

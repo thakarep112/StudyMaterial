@@ -1,0 +1,21 @@
+package testpackage2;
+
+public class GrandChild extends Child {
+	
+	
+	public GrandChild() {
+
+		System.out.println("GrandChild - Default Constructor");
+	}
+
+	public GrandChild(String name) {
+		
+		System.out.println("GrandChild - Parameterized Constructor "+name);
+	}
+
+	public static void main(String[] args) {
+		
+		GrandChild gc = new GrandChild();
+	}
+
+}

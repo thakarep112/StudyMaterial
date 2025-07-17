@@ -1,0 +1,25 @@
+package testpackage;
+
+public class PalindromeString {
+	
+	public static boolean checkPalindromeString(String actualString) {
+		
+		String reversedString = "";
+		
+		if(actualString.equalsIgnoreCase(reversedString)) {
+			
+			System.out.println(actualString + " is a palindrome string");
+			return true;
+		}else {
+			
+			System.out.println(actualString + " is not a palindrome string");
+			return false;
+		}
+	}
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package testpackage2;
+
+public class TestClass {
+	
+	String name = " Prasad Thakare ";
+	name = name.trim;
+
+	public static void main(String[] args) {
+		
+		System.out.println(name);
+	}
+	
+}

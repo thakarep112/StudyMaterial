@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Validate Annotations"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.015">
+    <properties></properties>
+
+
+
+            <testcase
+                name="doSignUp"
+                time="0.011"
+                classname="testngframework.Test_Case_1_Annotations">
+            </testcase>
+            <testcase
+                name="doLogin"
+                time="0.004"
+                classname="testngframework.Test_Case_1_Annotations">
+            </testcase>
+</testsuite>

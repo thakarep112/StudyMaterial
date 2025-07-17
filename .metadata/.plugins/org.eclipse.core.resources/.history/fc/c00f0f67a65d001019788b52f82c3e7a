@@ -1,0 +1,10 @@
+package testpackage2;
+
+public class OneToHundredWithoutAnyLoop {
+
+	public static void main(String[] args) {
+	
+		
+
+	}
+}

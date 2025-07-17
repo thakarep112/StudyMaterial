@@ -1,0 +1,22 @@
+package impprograms;
+
+public class OneToHundredNumbersWithoutLoop {
+
+	public static void getNumbers(int maxNumber) {
+
+		int num1 = 1;
+		int num2 = 2;
+		int sum=0;
+
+		if (sum < maxNumber) {
+
+			int sum = num1 + num2;
+
+		}
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+}

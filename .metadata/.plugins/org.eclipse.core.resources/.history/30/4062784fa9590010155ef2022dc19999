@@ -1,0 +1,24 @@
+package testpackage;
+
+import java.util.Scanner;
+
+public class SumOfAllDigitsOfGivenInteger {
+	
+	
+	public static void getSumOfAllIntegers(int num) {
+		
+		
+		
+		
+	}
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Your Number : ");
+		int num = sc.nextInt();
+		sc.close();
+		
+		getSumOfAllIntegers(num);
+	}
+}

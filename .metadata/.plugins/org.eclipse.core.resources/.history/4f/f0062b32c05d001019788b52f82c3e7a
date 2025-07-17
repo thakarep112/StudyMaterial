@@ -1,0 +1,14 @@
+package testpackage2;
+
+public class TestClass {
+	
+	String name = "Prasad Thakare";
+
+	public static void main(String[] args) {
+		
+		TestClass tc = new TestClass();
+		tc.getNumber();
+		System.out.println(tc.num);
+	}
+	
+}

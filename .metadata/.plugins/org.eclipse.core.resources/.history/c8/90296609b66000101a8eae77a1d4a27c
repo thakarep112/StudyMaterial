@@ -1,0 +1,13 @@
+package testpackage3;
+
+import java.util.ArrayList;
+
+public class GreatestNumberFromList {
+
+	public static void main(String[] args) {
+		
+		ArrayList list = [10, 20, 30, 40, 50];
+		
+
+	}
+}

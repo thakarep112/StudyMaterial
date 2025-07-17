@@ -1,0 +1,139 @@
+package encapsulation;
+
+public class BankFunctions {
+	
+	  private int accountNo= 123456789;
+	  private int pinNo=1234;
+	  private double accountBalance= 100000.00;
+	  private long mobileNo= 8983464097l;
+	  
+	  
+	  public void withdrawAmount(int accNo, int pin, int amount)
+	     {
+		    if(accNo==accountNo && pin==pinNo)
+		      {
+		    	if(amount<=accountBalance)
+		    	    {
+					  System.out.println("Amount is withdraw successfully "+amount);
+					  accountBalance=accountBalance - amount;
+					  System.out.println("Remailning balance is "+accountBalance);
+				    }
+		       else{
+			      
+		    	     System.out.println("Insufficient account Balance !!!");
+		       }
+		      }
+		    else
+		        {
+				  System.out.println("Invalid Credentials !!!");
+		     }
+	     }
+		
+	  
+       public void setPin(int accNo, int oldPin, int newPin)
+         {
+    	   if(accNo==accountNo && oldPin==pinNo)
+    	    {
+    		  if(newPin!=oldPin)
+    		    {
+    		        System.out.println("Pin has been changed successfully !!!");
+    		        pinNo=newPin;
+    	        }
+    		  else
+    	        {
+    		        System.out.println("Old and new pin can not be same !!!");
+    	        }
+    	    } 
+    	  else
+    	    {
+    		   System.out.println("Invalid Credentials Entered !!!");   
+    	    }
+    	  
+         } 
+       
+       
+       
+       
+       public double depositAmount(long mobile, int accNo, int amount)
+    	 {
+    	   
+    	   if(accNo==accountNo && mobile==mobileNo)
+    	   {
+    		   System.out.println(amount+" Amount is Deposited");
+    		   accountBalance=accountBalance+amount;
+    		   System.out.println("Updated Balance is "+accountBalance);
+    	   }
+    	   else
+    	   {
+    		   System.out.println("Invalid Account Details");
+    	   }
+    	   
+    	   return accountBalance;
+    	   
+        } 
+	  
+	public void getAccountNumber(long mobile)
+	 {
+		if(mobile==mobileNo)
+		{
+			System.out.println("Your Account Number is "+accountNo);
+		}else
+		  {
+			System.out.println("Invalid Mobile Number Entered !!!");
+		  }
+	 }
+	
+	// Created using default getter template.
+
+	public double getAccountBalance() {
+		return accountBalance;
+	}	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+

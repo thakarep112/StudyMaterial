@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AllureReporting">
+	
+	<listeners>
+		<listener class-name="allurereports.CustomListener"></listener>
+	</listeners>
+	
+  <test name="AllureReport">
+    <classes>
+      <class name="allurereports.TestCase1"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

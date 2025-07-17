@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-18T10:56:53 IST" name="Data Driven Basics" finished-at="2024-11-18T10:56:57 IST" duration-ms="4381">
+    <groups>
+    </groups>
+    <test started-at="2024-11-18T10:56:53 IST" name="BankManagerLoginTest" finished-at="2024-11-18T10:56:53 IST" duration-ms="279">
+      <class name="testcases.BankManagerLoginTest">
+        <test-method signature="bankManagerLogin()[pri:0, instance:testcases.BankManagerLoginTest@46d9aec8]" started-at="2024-11-18T10:56:53 IST" name="bankManagerLogin" finished-at="2024-11-18T10:56:53 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bankManagerLogin -->
+      </class> <!-- testcases.BankManagerLoginTest -->
+    </test> <!-- BankManagerLoginTest -->
+    <test started-at="2024-11-18T10:56:53 IST" name="AddCustomerTest" finished-at="2024-11-18T10:56:56 IST" duration-ms="2455">
+      <class name="testcases.AddCustomerTest">
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.AddCustomerTest@67b7c170]" started-at="2024-11-18T10:56:53 IST" name="addCustomer" data-provider="dataProvider" finished-at="2024-11-18T10:56:54 IST" duration-ms="588" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vaibhav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Patil]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[421302.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.AddCustomerTest@67b7c170]" started-at="2024-11-18T10:56:54 IST" name="addCustomer" data-provider="dataProvider" finished-at="2024-11-18T10:56:55 IST" duration-ms="674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shweta]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Patil]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[421302.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.AddCustomerTest@67b7c170]" started-at="2024-11-18T10:56:55 IST" name="addCustomer" data-provider="dataProvider" finished-at="2024-11-18T10:56:55 IST" duration-ms="361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Savita]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Patil]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[421302.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.AddCustomerTest@67b7c170]" started-at="2024-11-18T10:56:55 IST" name="addCustomer" data-provider="dataProvider" finished-at="2024-11-18T10:56:55 IST" duration-ms="424" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lovekesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Patil]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[421302.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.AddCustomerTest@67b7c170]" started-at="2024-11-18T10:56:55 IST" name="addCustomer" data-provider="dataProvider" finished-at="2024-11-18T10:56:56 IST" duration-ms="370" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pooja]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Patil]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[421302.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+      </class> <!-- testcases.AddCustomerTest -->
+    </test> <!-- AddCustomerTest -->
+    <test started-at="2024-11-18T10:56:56 IST" name="OpenAccountTest" finished-at="2024-11-18T10:56:56 IST" duration-ms="566">
+      <class name="testcases.OpenAccountTest">
+        <test-method signature="openAccount(java.lang.String,java.lang.String)[pri:0, instance:testcases.OpenAccountTest@ba354ca]" started-at="2024-11-18T10:56:56 IST" name="openAccount" data-provider="dataProvider" finished-at="2024-11-18T10:56:56 IST" duration-ms="562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vaibhav Patil]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rupee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccount -->
+      </class> <!-- testcases.OpenAccountTest -->
+    </test> <!-- OpenAccountTest -->
+    <test started-at="2024-11-18T10:56:56 IST" name="CustomerLoginTest" finished-at="2024-11-18T10:56:57 IST" duration-ms="671">
+      <class name="testcases.CustomerLoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.CustomerLoginTest@4a05d8ae]" started-at="2024-11-18T10:56:47 IST" name="setUp" finished-at="2024-11-18T10:56:53 IST" duration-ms="5527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="customerLogin(java.lang.String)[pri:0, instance:testcases.CustomerLoginTest@4a05d8ae]" started-at="2024-11-18T10:56:57 IST" name="customerLogin" data-provider="dataProvider" finished-at="2024-11-18T10:56:57 IST" duration-ms="668" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vaibhav Patil]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.CustomerLoginTest@4a05d8ae]" started-at="2024-11-18T10:56:57 IST" name="tearDown" finished-at="2024-11-18T10:56:57 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.CustomerLoginTest -->
+    </test> <!-- CustomerLoginTest -->
+  </suite> <!-- Data Driven Basics -->
+</testng-results>

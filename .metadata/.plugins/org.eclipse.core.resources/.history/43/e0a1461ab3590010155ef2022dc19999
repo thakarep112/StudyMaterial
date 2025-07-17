@@ -1,0 +1,30 @@
+package testpackage;
+
+import java.util.Scanner;
+
+public class OneToHundredWithoutLoop {
+	
+	public static void getNumbersWithoutLoop(int maxNumber) {
+		
+		int num = 1;
+		int sum = 0;
+		
+		if(sum < maxNumber) {
+			
+			sum = sum + num;
+			System.out.println(sum);
+		}
+		
+		//System.out.println("Numbers from 1 to "+maxNumber +" are : ");		
+	}
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Max Number : ");
+		int num = sc.nextInt();
+		sc.close();
+		
+		getNumbersWithoutLoop(num);
+	}
+}

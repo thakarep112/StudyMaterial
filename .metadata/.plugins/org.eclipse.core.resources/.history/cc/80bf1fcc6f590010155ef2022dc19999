@@ -1,0 +1,24 @@
+package testpackage;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class CountOfEachStringCharacter {
+	
+	
+	public static void getStringCharacterCount(String actualString) {
+		
+		Map[Character, Integer] hashMap = new HashMap[Character, Integer];
+		
+		char[] charArray = actualString.toCharArray();
+		
+		
+		
+	}
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

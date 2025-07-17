@@ -1,0 +1,19 @@
+package testpackage3;
+
+import java.time.Duration;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class CodaTest {
+
+	public static void main(String[] args) {
+		
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://ninjatables.com/examples-of-data-table-design-on-website/?srsltid=AfmBOooiFgaCEhepkPxMjKlknLlXe5DrXBA70GgH-TN4SKH9IeqXjUcn");
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		
+			
+		}
+	}
+

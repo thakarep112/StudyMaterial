@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Validate ForceSkipTest"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="1"
+           time="0.002">
+    <properties></properties>
+
+
+            <testcase
+                name="skipTest"
+                time="0.0"
+                classname="testngframework.Test_Case_5_ForceSkipTest">
+            </testcase>
+
+</testsuite>

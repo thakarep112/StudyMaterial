@@ -1,0 +1,33 @@
+package testpackage3;
+
+import java.util.ArrayList;
+
+public class GreatestNumberFromList {
+
+	public static void main(String[] args) {
+
+		ArrayList<Integer> list = new ArrayList<Integer>();
+
+		for (int i = 0; i < 5; i++) {
+
+			list.add((int) (Math.random() * 100));
+		}
+
+		System.out.println("Printing List values : ");
+
+		System.out.println(list);
+
+		int maxNumber = list.get(0);
+
+		for (Integer c : list) {
+
+			if (c > maxNumber) {
+
+				maxNumber = c;
+			}
+		}
+
+		System.out.println(maxNumber);
+
+	}
+}

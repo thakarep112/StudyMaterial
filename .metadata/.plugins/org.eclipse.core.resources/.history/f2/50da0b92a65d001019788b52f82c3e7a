@@ -1,0 +1,15 @@
+package testpackage2;
+
+public class OneToHundredWithoutAnyLoop {
+	
+	public static void printNumbers(int num) {
+		
+		
+		
+	}
+
+	public static void main(String[] args) {
+	
+		printNumbers(1);
+	}
+}

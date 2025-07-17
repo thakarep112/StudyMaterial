@@ -1,0 +1,15 @@
+package encapsulation;
+
+public class ATMFunctions {
+
+	public static void main(String[] args) {
+		
+		BankFunctions b = new BankFunctions();
+		b.setPin(123456789, 1234, 123456);
+		b.withdrawAmount(123456789, 123456, 1000);
+		b.depositAmount(8983464097l, 123456789, 10000);
+		b.getAccountNumber(8983464097l);
+		b.getAccountBalance(123456789,1234);
+
+	}
+}
