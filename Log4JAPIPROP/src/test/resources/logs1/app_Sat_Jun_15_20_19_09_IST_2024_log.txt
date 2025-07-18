@@ -1,3 +1,0 @@
-DEBUG   2024-06-15 20:19:09,363 [main] loggeneration.Log4JPROP  - This is debug log
-INFO    2024-06-15 20:19:09,366 [main] loggeneration.Log4JPROP  - This is info log
-ERROR   2024-06-15 20:19:09,366 [main] loggeneration.Log4JPROP  - This is error log

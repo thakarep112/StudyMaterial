@@ -1,3 +1,0 @@
-2024-06-15 20:41:31 ERROR Log4J2PROP:13 - This is error log
-2024-06-15 20:41:31 DEBUG Log4J2PROP:14 - This is debug log
-2024-06-15 20:41:31 INFO  Log4J2PROP:15 - This is info log
