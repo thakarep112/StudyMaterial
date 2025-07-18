@@ -1,4 +1,4 @@
-# Learnigs
+# Study Material
 This repository contains comprehensive study material for learning Java and Selenium WebDriver, ideal for beginners and intermediate learners aiming to build a strong foundation in test automation and core Java programming.
 
 📘 What's Inside
